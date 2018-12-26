@@ -2,14 +2,23 @@
 
 body {
 	background: linear-gradient(to right, #383838, #5f605d);
+	display: flex;
 }
 
 div.side-container {
 	width: 200px;
-	height: 700px;
+	height: 90%;
 	background-color: #21201f;
 	border-radius: 5px;
 	float: left;
+}
+
+div.main-container {
+	margin: 15px;
+	border-radius: 5px;
+	float: right;
+	width: 90%;
+	text-align: center;
 }
 
 h1 {
@@ -19,12 +28,22 @@ h1 {
 	background-color: #ef6817;
 	border-radius: 5px;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
 }
 
 h1 a {
-	font-size: 25px;
+	font-size: 30px;
+	text-align: center;
+}
+
+h2 {
+	width: 400px;
+	margin: auto;
+}
+
+h2 a {
+	margin: 10px;
+	font-size: 30px;
 }
 
 nav.navbar {
