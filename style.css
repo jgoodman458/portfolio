@@ -1,2 +1,33 @@
-// Stylesheet
+/* Stylesheet */
+
+body {
+	background-image: url(wallpaper.jpg);
+}
+
+div.main-container {
+	margin: auto;
+	width: 80%;
+	background-color: white;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	color: #343d46;
+}
+
+li.nav-element  {
+	padding: 10px;
+	list-style-type: none;
+	background-color: #4f5b66;
+	color: white;
+	float: left;
+	display: block;
+}
+
+li.nav-element:hover {
+	background-color: #a7adba;
+}
+
+
 
