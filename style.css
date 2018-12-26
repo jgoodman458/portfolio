@@ -20,9 +20,6 @@ li.nav-element  {
 	padding: 10px;
 	list-style-type: none;
 	background-color: #4f5b66;
-	color: white;
-	float: left;
-	display: block;
 }
 
 li.nav-element:hover {
