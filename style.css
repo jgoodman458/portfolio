@@ -1,5 +1,9 @@
 /* Stylesheet */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: linear-gradient(to right, #383838, #D3D3D3);
 	display: flex;
