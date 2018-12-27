@@ -4,8 +4,9 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Jacob Goodman Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -15,8 +16,8 @@
 			Portfolio and Resume</a></h1>
 
 		<nav class="navbar">
-			<a href="#about">About Me</a>
-			<a href="#laser">Project: CO2 Laser</a>
+			<a href="#about" id="about-btn">About Me</a>
+			<a href="#laser" id="laser-btn">Project: CO2 Laser</a>
 			<a href="#education">Education</a>
 			<a href="#work">Charity and Work Experience</a>
 			<a href="#skills">Skills and Capabilities</a>
@@ -26,13 +27,13 @@
 	<div class="main-container">
 		<section id="laser">
 			<h2><a>Designed and Constructed a CO2 Laser From Scratch</a></h2>
-			<hr color="#ef6817" width="75%">
+			<hr color="#ef6817" width=95%">
 			<embed src="co2 laser plans.pdf" type="application/pdf" width="85%" height="750px"/>
 		</section>
 
 		<section id="education">
 			<h2><a>Education</a></h2>
-			<hr color="#ef6817" width="75%">
+			<hr color="#ef6817" width="95%">
 			<ul>
 				<h3>Binghamton University Thomas J. Watson School of Engineering,                                        Expected: May 2021</h3>
 					<li>B.S. Mechanical Engineering (Current Overall GPA: 3.24); Dean’s List, Spring 2018</li>
@@ -44,7 +45,7 @@
 
 		<section id="work">
 			<h2><a>Charity and Work Experience</a></h2>
-			<hr color="#ef6817" width="75%">
+			<hr color="#ef6817" width="95%">
 			<ul>
 				<h3>Board Member, Scarsdale Concours d’Elegance Car Show, Aug. 2014 – Oct. 2016</h3>
 					<li>The Scarsdale Concours is an annual registered 501(c)3 charity car show that displays over 100 cars and attracts thousands of people to Scarsdale Village, Scarsdale, NY</li>
@@ -70,7 +71,7 @@
 
 		<section id="skills">
 			<h2><a>Skills and Capabilites</a></h2>
-			<hr color="#ef6817" width="75%">
+			<hr color="#ef6817" width="95%">
 			<ul>
 				<li>Proficient in 3D CAD modeling with Autodesk Fusion 360, Autodesk Inventor, and Siemens Solid Edge</li>
 				<li>Familiar with the use of Autodesk 3ds Max, Revit, AutoCad, and Rockwell Arena</li> 
@@ -81,5 +82,13 @@
 		</section>
 
 	</div>
+
+<script type="text/javascript">
+	$((document) => {
+		$(".side-container").on("scrollTop", () => {$(".side-container").toggle(1000)});
+	});
+
+</script>
+
 </body>
 </html>

@@ -3,6 +3,7 @@
 body {
 	background: linear-gradient(to right, #383838, #D3D3D3);
 	display: flex;
+	font-family: "Helvetica";
 }
 
 div.side-container {
@@ -44,8 +45,9 @@ h2 {
 }
 
 h2 a {
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
+	margin: auto;
 }
 
 nav.navbar {
@@ -69,6 +71,9 @@ nav.navbar a:hover {
 
 li {
 	text-align: left;
-	margin-left: 115px;
+	margin: auto;
+	font-size: 20px;
 }
+
+
 
