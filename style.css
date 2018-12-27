@@ -1,13 +1,12 @@
 /* Stylesheet */
 
 body {
-	background: linear-gradient(to right, #383838, #5f605d);
+	background: linear-gradient(to right, #383838, #D3D3D3);
 	display: flex;
 }
 
 div.side-container {
 	width: 200px;
-	height: 90%;
 	background-color: #21201f;
 	border-radius: 5px;
 	float: left;
@@ -23,8 +22,9 @@ div.main-container {
 
 h1 {
 	width: 150px;
-	height: 100px;
+	height: 250px;
 	margin: 25px;
+	color: #21201f;
 	background-color: #ef6817;
 	border-radius: 5px;
 	display: flex;
@@ -39,18 +39,19 @@ h1 a {
 h2 {
 	width: 400px;
 	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 15px;
 }
 
 h2 a {
-	margin: 10px;
 	font-size: 30px;
+	text-align: center;
 }
 
 nav.navbar {
 	display: flex;
 	flex-direction: column;
 }
-
 
 nav.navbar a  {
 	margin: 10px;
@@ -66,5 +67,8 @@ nav.navbar a:hover {
 	background-color: #a7adba;
 }
 
-
+li {
+	text-align: left;
+	margin-left: 100px;
+}
 
