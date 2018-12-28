@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background: linear-gradient(to right, #383838, #D3D3D3);
+	background: linear-gradient(to right, #a6a6a6, #cccccc);
 	display: flex;
 	font-family: "Helvetica";
 }
@@ -34,6 +34,8 @@ h1 {
 	width: 150px;
 	height: 250px;
 	margin: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
 	color: #21201f;
 	background-color: #ef6817;
 	border-radius: 5px;
@@ -71,6 +73,7 @@ nav.navbar {
 }
 
 nav.navbar a  {
+	width: 131px;
 	margin: 10px;
 	padding: 10px;
 	text-decoration: none;
