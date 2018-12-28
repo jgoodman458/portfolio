@@ -24,6 +24,12 @@ div.main-container {
 	text-align: center;
 }
 
+div.img-table {
+	margin: 50px;
+	padding: 10px;
+	float: center;
+}
+
 #phantom-sidebar {
 	width: 200px;
 	float: left;
