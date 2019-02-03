@@ -8,7 +8,6 @@ body {
 	background: linear-gradient(to right, #999999, #d8d8d8);
 	display: flex;
 	font-family: "Helvetica";
-	margin: 20px;
 }
 
 div.side-container {
@@ -97,6 +96,7 @@ nav.navbar a:hover {
 li {
 	text-align: left;
 	margin: auto;
+	margin-top: 8px;
 	font-size: 20px;
 }
 
