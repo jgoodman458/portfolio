@@ -8,6 +8,7 @@ body {
 	background: linear-gradient(to right, #999999, #d8d8d8);
 	display: flex;
 	font-family: "Helvetica";
+	margin: 20px;
 }
 
 div.side-container {
