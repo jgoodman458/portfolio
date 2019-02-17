@@ -30,6 +30,13 @@ div.img-table {
 	float: center;
 }
 
+div#coffee-pot {
+	display: flex;
+	justify-content: space-between;
+	height: 500px;
+	margin: 50px;
+}
+
 #phantom-sidebar {
 	width: 200px;
 	float: left;
@@ -93,10 +100,6 @@ nav.navbar a {
 
 nav.navbar a:hover {
 	background-color: #a7adba;
-}
-
-nav.navbar a#linkedin:hover {
-	background-color: black;
 }
 
 li {
