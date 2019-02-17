@@ -31,10 +31,11 @@ div.img-table {
 }
 
 div#coffee-pot {
-	display: inline-flex;
+	display: flex;
 	justify-content: space-between;
 	height: 500px;
 	margin: 50px;
+	padding: 15px;
 }
 
 #phantom-sidebar {
