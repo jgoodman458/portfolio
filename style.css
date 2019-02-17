@@ -95,6 +95,10 @@ nav.navbar a:hover {
 	background-color: #a7adba;
 }
 
+nav.navbar a#linkedin:hover {
+	background-color: black;
+}
+
 li {
 	text-align: left;
 	margin: auto;
