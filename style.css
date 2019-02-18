@@ -11,8 +11,8 @@ body {
 }
 
 div.side-container {
-	width: 213px;
-	height: 625px;
+	width: 10%;
+	height: auto;
 	border-radius: 5px;
 	float: left;
 }
@@ -25,7 +25,7 @@ div.main-container {
 }
 
 div.img-table {
-	margin: 60px;
+	margin: 5%;
 	padding: 10px;
 	float: center;
 }
@@ -39,7 +39,7 @@ div#coffee-pot {
 }
 
 #phantom-sidebar {
-	width: 200px;
+	width: 10%;
 	float: left;
 	position: fixed;
 }
