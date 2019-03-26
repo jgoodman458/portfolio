@@ -44,6 +44,10 @@ div#coffee-pot {
 	position: fixed;
 }
 
+img {
+	margin: 15px;
+}
+
 h1 {
 	width: 150px;
 	height: 250px;
@@ -93,7 +97,7 @@ nav.navbar a {
 	background-color: #4f5b66;
 	color: white;
 	border-radius: 5px;
-	width: 130px;
+	width: 8em;
 	height: auto;
 	margin: 10px;
 	padding: 10px;
@@ -101,6 +105,15 @@ nav.navbar a {
 
 nav.navbar a:hover {
 	background-color: #a7adba;
+}
+
+a#linked {
+	width:8em;
+}
+
+a#linked img {
+	width:6.5em;
+	height:auto;
 }
 
 li {
