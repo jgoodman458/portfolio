@@ -30,10 +30,14 @@ div.img-table {
 	float: center;
 }
 
+img {
+	height: auto;
+}
+
 div#coffee-pot {
 	display: flex;
 	justify-content: space-between;
-	height: 500px;
+	height: auto;
 	margin: 50px;
 	padding: 15px;
 }
